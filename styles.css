@@ -733,3 +733,22 @@ section { position: relative; }
 .shot { margin-top: 24px; }
 .shot img { width: 100%; border: 1px solid var(--line); }
 .chapter .table + .note, .chapter .list + .note { margin-top: 16px; }
+
+/* Project groups */
+.hero-group { color: var(--accent); font-size: 11px; margin: 14px 0 0; }
+.work-group {
+  display: grid;
+  grid-template-columns: 48px 1fr auto;
+  gap: 24px;
+  align-items: baseline;
+  padding: 40px 0 14px;
+  border-bottom: 1px solid var(--line-strong);
+}
+.work-group:first-of-type { padding-top: 8px; }
+.work-group .mono { color: var(--accent); }
+.work-group h3 { font-size: clamp(20px, 2vw, 26px); letter-spacing: -0.03em; font-weight: 800; }
+.work-group > span:last-child { font-size: 14px; color: var(--mute); }
+@media (max-width: 720px) {
+  .work-group { grid-template-columns: 40px 1fr; gap: 4px 16px; }
+  .work-group > span:last-child { grid-column: 2; }
+}
