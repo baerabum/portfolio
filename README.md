@@ -16,7 +16,7 @@
 
 | 파일 | 위치 |
 | --- | --- |
-| `assets/works/{mobile,dealer365,dotorit,hannip,topiki}-detail.jpg` | 각 케이스 Solution 섹션 (화면설계서, 앱 화면 등) |
+| `assets/works/{gswti,mobile,dealer365,dotorit,hannip,topiki}-detail.jpg` | 각 케이스 Solution 섹션 (화면설계서, 앱 화면 등) |
 
 가로 1600px 이상을 권장합니다.
 
